@@ -1,41 +1,37 @@
-body
-{
+body {
     background: #000000;
+}
+.centerwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .hero {
     background: linear-gradient(to bottom, #937a52, #870a22);
     color: #fff;
-    padding: 10px 24px;
-    font-family: "Inter",sans-serif;
-    border-radius: 18px;
+    padding: 20px 30px;
+    border-radius: 20px;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+.bat,
+.DPS {
+    font-size: 34px;
+    border-radius: 20px;
+    padding: 10px 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 .bat {
-    background: linear-gradient(to bottom,  #E82020,#3D0E0D);
-    font-size:34px;
-    border-radius: 18px;
-    padding: 10px 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row-reverse;
+    background: linear-gradient(to bottom, #E82020, #3D0E0D);
 }
+
 .DPS {
     background: linear-gradient(to bottom, #EBB837, #4E1618);
-    font-size:34px;
-    border-radius: 18px;
-    padding: 10px 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row-reverse;
 }
 .blackpad {
     background-color: #000000;
-    padding: 7px 6px;
-    border-radius: 18px;
+    padding: 6px 6px;
+    border-radius: 20px;
 }
